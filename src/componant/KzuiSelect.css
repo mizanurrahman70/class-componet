@@ -1,0 +1,143 @@
+.kzui-custom-select {
+  position: relative;
+  width: 350px;
+  box-sizing: border-box;
+  
+}
+
+.kzui-custom-select_main-container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  /* background-image: url('https://i.ibb.co/GJCvMP6/pexels-pixabay-531880.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;  */
+  background-color: #229f5c;
+  height:120vh;
+  border-radius: 12px;
+  width: auto;
+  margin: 0 auto;
+  
+  
+}
+.kzui-select-input-filed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.kzui-custom-select__placeholder {
+  color: #888;
+}
+
+.kzui-select-multi-values {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kzui-select-multi-value {
+  background: #229f5c;
+  
+ 
+  border-radius: 2px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.kzui-select__clear-single {
+  margin-left: 4px;
+  cursor: pointer;
+  color: #888;
+}
+
+.kzui-custom-select__clear-all {
+  cursor: pointer;
+  color: #888;
+}
+
+.kzui-select__menu {
+  position: absolute;
+  margin-top: 5px;
+  width: 370px;
+  left: 0;
+  right: 0;
+  background: #a0a091;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 10;
+   
+  transition: opacity 0.3s ease 2s;  
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease 2s;
+
+}
+.kzui-select__menu--visible {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.kzui-select__search-input {
+ 
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+  height: 20px;
+  width: 350px;
+  margin-top: 5px;
+}
+
+.kzui-select__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kzui-select__option {
+  padding: 8px;
+  cursor: pointer;
+  height: 18px;
+  border: 1px solid white;
+  margin-top: 2px;
+  
+  
+}
+
+.kzui-select__option--selected {
+  background: #e0e0e0;
+}
+
+.kzui-select__option:hover {
+  background: #5a4c54;
+  border-radius: 6px;
+}
+
+.kzui-select__group {
+  border-top: 1px solid #ccc;
+}
+
+.kzui-select__group-label {
+  padding: 8px;
+  background: #4e9853;
+  font-weight: bold;
+}
+
+.kzui-select__group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kzui-select--disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
