@@ -2,5 +2,9 @@
 
 #How to Run Your Projact 
 -git clone 
+
+
 -npm istall 
+
+
 - npm run dev
