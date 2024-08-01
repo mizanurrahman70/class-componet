@@ -3,10 +3,10 @@
 #How to Run Your Projact
 
 
--git clone 
+- git clone 
 
 
--npm istall 
+- npm istall 
 
 
 - npm run dev
