@@ -1,12 +1,25 @@
-# live link: https://bejewelled-meringue-bc9a58.netlify.app/
+# Contact Component Project
 
-#How to Run Your Projact
+This project showcases a simple React component for displaying contact information.
 
+## Live Link
 
-- git clone 
+Check out the live version of the project [here](https://bejewelled-meringue-bc9a58.netlify.app/).
 
+## Main Features
 
-- npm istall 
+- Search country
+- Select multiple countries
+- Remove country
 
+## How to Run Your Project
 
-- npm run dev
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+npm install
+npm run dev
